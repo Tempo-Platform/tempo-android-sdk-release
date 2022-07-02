@@ -7,4 +7,16 @@
    <groupId>com.tempoplatform</groupId>
    <artifactId>tempo-android-sdk</artifactId>
    <version>1.0</version>
+   <dependencies>
+    <dependency>
+      <groupId>com.github.stripe.stripe-android</groupId>
+      <artifactId>payments-core</artifactId>
+      <version>v17.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.android.volley</groupId>
+      <artifactId>volley</artifactId>
+      <version>1.2.1</version>
+    </dependency>
+  </dependencies>
 </project>
