@@ -1,3 +1,3 @@
 install: 
   - FILE="-Dfile=tempo-android-sdk-release.aar" 
-  - mvn install:install-file $FILE -DgroupId=com.lb.sdktest -DartifactId=test -Dversion=1.0 -Dpackaging=aar -DpomFile=pom.xml
+  - mvn install:install-file $FILE -DgroupId=com.tempoplatform -DartifactId=tempo-android-sdk-release -Dversion=0.0.0 -Dpackaging=aar -DpomFile=pom.xml
