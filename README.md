@@ -13,6 +13,27 @@ Tempo Android Library releases
 1. Add below code in setings.gradle file under repositories section  
 ```
 repositories {
+      mavenCentral()
+  }
+```
+2. Add the below line in build.gradle file under dependencies. Use the latest release number (0.0.x)
+```
+dependencies {
+      ...
+      implementation 'io.github.tempo-platform:tempo-android-sdk:0.0.11'
+   }
+
+```
+3. This allows you to import the library 
+```
+   import com.tempoplatform.ads.InterstitialView
+```
+
+### To consume the library - old instructions, pre-death-of-jitpack
+
+1. Add below code in setings.gradle file under repositories section  
+```
+repositories {
       maven { url 'https://jitpack.io' }
   }
 ```
