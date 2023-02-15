@@ -31,14 +31,19 @@
     <version>v17.2.0</version>
   </dependency>
   <dependency>
-    <groupId>com.android.volley</groupId>
-    <artifactId>volley</artifactId>
-    <version>1.2.1</version>
+	<groupId>com.android.volley</groupId>
+	<artifactId>volley</artifactId>
+	<version>1.2.1</version>
   </dependency>
   <dependency>
-    <groupId>com.google.code.gson</groupId>
-    <artifactId>gson</artifactId>
-    <version>2.10.1</version>
+	<groupId>com.google.android.gms</groupId>
+	<artifactId>play-services-ads-identifier</artifactId>
+	<version>18.0.1</version>
+  </dependency>
+  <dependency>
+	<groupId>com.google.code.gson</groupId>
+	<artifactId>gson</artifactId>
+	<version>2.10.1</version>
   </dependency>
 </dependencies>
 </project>
